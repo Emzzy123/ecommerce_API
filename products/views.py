@@ -17,5 +17,5 @@ class ProductViewSet(viewsets.ModelViewSet):
         self.perform_destroy(instance)
         return Response(
             {"message": f"Product '{instance.name}' has been deleted successfully."},
-            status=status.HTTP_204_OK,
+            status=status.HTTP_200_OK,
         )
