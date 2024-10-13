@@ -1,0 +1,25 @@
+[
+    {
+      "model": "users.customuser",
+      "pk": 1,
+      "fields": {
+        "username": "admin",
+        "email": "admin@example.com",
+        "password": "pbkdf2_sha256$216000$ZP$hash",
+        "is_superuser": true,
+        "is_staff": true
+      }
+    },
+    {
+      "model": "users.customuser",
+      "pk": 2,
+      "fields": {
+        "username": "johndoe",
+        "email": "johndoe@example.com",
+        "password": "pbkdf2_sha256$216000$ZP$hash",
+        "is_superuser": false,
+        "is_staff": false
+      }
+    }
+  ]
+  
